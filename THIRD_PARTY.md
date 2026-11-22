@@ -34,3 +34,12 @@ THE SOFTWARE.
 | acorn | MIT |
 | eslint-scope | BSD-2-Clause |
 | playwright-core | Apache-2.0 |
+
+## Optional AI NPC assets (downloaded only after the player asks Maya)
+
+| Asset | Source | Listed license |
+| --- | --- | --- |
+| LiteRT-LM Web SDK `@litert-lm/core@0.19.0` | [npm package](https://www.npmjs.com/package/@litert-lm/core) | Apache-2.0 |
+| Gemma 4 E2B Web model, pinned revision | [LiteRT Community model](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm) | Apache-2.0 |
+
+These assets are not included in `public/`; the optional browser feature retrieves them from their respective hosts.
